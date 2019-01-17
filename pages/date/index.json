@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "Navi": "/components/Navi/index"
+  }
+}

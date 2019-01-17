@@ -1,0 +1,4 @@
+<view class='box'>
+  <slot name="title"></slot>
+  <slot name="subtitle"></slot>
+</view>

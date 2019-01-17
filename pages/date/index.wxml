@@ -1,0 +1,48 @@
+<view class='date'>
+  <Navi />
+
+  <!-- 标题描述 -->
+  <view class='date_top'>
+    JavaScript 
+    <view class='date_desc'>there are some descriptions for your calender</view>
+    <view class='date_desc_sub'>you can write your idea</view>
+  </view>
+
+  <!-- 星期类型： short_eng、china、eng -->
+  <view class='weeks'>
+    <view class="single_week" wx:for="{{weeks}}" wx:key>
+      {{item.short_eng}}
+    </view>
+  </view>
+  
+  <!-- 日历表 -->
+  <block wx:for="{{all_array}}" wx:key>
+    <!-- 年月 -->
+    <view class='year_month'>
+      Year.<text>{{item.year}}</text> and Month.<text>{{item.month}}</text>
+    </view>
+
+    <!-- 天 -->
+    <view class='days'>
+      <view class='day' 
+        wx:for="{{item.days}}"
+        wx:for-item="item_day"
+        bindtap='chooseTime'
+        data-item_day='{{item_day}}'
+        data-year='{{item.year}}'
+        data-month='{{item.month}}'
+        wx:key>
+        <view class='item {{item_day.status == -1? "pre_item":""}}'>
+        {{item_day.day?item_day.day:''}}
+          <view class='today'>{{item_day.today?'今':''}}</view>
+          <view class='dot' wx:if="{{item_day.day && item_day.status == 2}}"></view>
+        </view>
+      </view>
+    </view>
+  </block>
+
+  <!-- 确定选择 -->
+  <view class='confirm shadow-blur' wx:if="{{start && end}}" bindtap='confirm'>
+    确定
+  </view>
+</view>

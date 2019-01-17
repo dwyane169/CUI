@@ -1,0 +1,5 @@
+<view class="box shadow-blur" bindtap='chooseItem'>
+  <navigator url='{{url}}' open-type='navigate' hover-class='hover'>
+    <text>{{title}}</text>
+  </navigator>
+</view>

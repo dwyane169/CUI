@@ -1,0 +1,5 @@
+
+  <view class="navi" style='padding-top:{{status_bar}}px' bindtap='backOrInfo'>
+    <view class='logo shadow-blur' >CUI</view>
+  </view>
+

@@ -1,0 +1,21 @@
+<view class='container'>
+
+  <Navi />
+
+  <Title>
+    <view slot="title" class="title">时间</view>
+    <view slot="subtitle" class="subtitle">Time</view>
+  </Title>
+
+  <Item title="日历选择" url="/pages/calender/index" />
+  <!-- <Item title="倒计时类" url="/pages/calender/index" /> -->
+
+  <Title>
+    <view slot="title" class="title">轮播</view>
+    <view slot="subtitle" class="subtitle">Carousel</view>
+  </Title>
+
+  <Item title="轮播整合" url="/pages/calender/index" />
+  
+
+</view>

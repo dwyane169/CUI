@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.0",
+	"appid": "wxb64e74995c9ce39a",
+	"projectname": "123",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "日历",
+					"pathName": "pages/calender/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "日期选择",
+					"pathName": "pages/date/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "公历农历",
+					"pathName": "pages/gl_nl/index"
+				}
+			]
+		}
+	}
+}

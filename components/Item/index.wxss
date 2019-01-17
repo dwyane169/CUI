@@ -1,0 +1,9 @@
+/* components/Item/index.wxss */
+.box{
+  width: 100%;
+  background-color: #fff;
+  padding: 20rpx;
+  border-radius: 6rpx;
+  color: #444;
+  margin-bottom: 20rpx;
+}

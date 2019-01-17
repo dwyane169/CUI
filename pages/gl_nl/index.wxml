@@ -1,0 +1,8 @@
+<view class='date'>
+  <Navi />
+
+  <view class="show_date shadow-blur" bindtap='showDatePickerPlus'>
+    点击显示日期选择控件
+  </view>  
+  <DatePicker bind:submit='submit' showDatePickerPlus='{{show}}'/>
+</view>

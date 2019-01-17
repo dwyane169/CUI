@@ -1,0 +1,21 @@
+@import './ccui.wxss';
+page{
+  width: 100%;
+  font-size: 32rpx;
+  color: #333;
+
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+view{
+  box-sizing: border-box;
+}
+.desc{
+  color: #999;
+}
+.semititle{
+  color: #666;
+}

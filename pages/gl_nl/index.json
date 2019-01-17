@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Navi": "/components/Navi/index",
+    "DatePicker": "/components/DatePicker/index"
+  }
+}

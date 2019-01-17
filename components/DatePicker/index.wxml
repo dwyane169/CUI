@@ -1,0 +1,36 @@
+<view class='modal-mask' wx:if="{{ showDatePickerPlus }}" bindtap='closeDatePickerPlus'></view>
+<view class='datepicker' wx:if="{{ showDatePickerPlus }}" animation="{{animationData}}">
+  <view class='datepicker-header'>
+    <view class='left'>
+      <view class='datetype-toggle'>
+        <view class='datetype-item {{ datePickerAttr.dateType == 1 ? "datetype-select" : "" }}' bindtap='toggleDateType'>公历</view>
+        <view class='datetype-item {{ datePickerAttr.dateType == 2 ? "datetype-select" : "" }}' bindtap='toggleDateType'>农历</view>
+      </view>
+    </view>
+    <view class='right' bindtap='submitSelectDate'>确定</view>
+  </view>
+  <view class='datepicker-content'>
+    <picker-view value="{{gl_init}}" bindchange="bindDateGl" wx:if="{{ datePickerAttr.dateType == 1 }}">
+      <picker-view-column>
+        <view wx:for="{{glYears}}" wx:key>{{item}}年</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{glMonths}}" wx:key>{{item}}月</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{glDays}}" wx:key>{{item}}日</view>
+      </picker-view-column>
+    </picker-view>
+    <picker-view value="{{nl_init}}" bindchange="bindDateNl" wx:if="{{ datePickerAttr.dateType == 2 }}">
+      <picker-view-column>
+        <view wx:for="{{nlYears}}" wx:key>{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{nlMonths}}" wx:key>{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{nlDays}}" wx:key>{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>
