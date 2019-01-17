@@ -18,6 +18,6 @@
   date / 日历表以及时间选择 （页面型组件）
   gl_nl / 公历农历选择
 ```
-![image](https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif)
+![image](https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif width="140")
 
 
