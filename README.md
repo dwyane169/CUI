@@ -19,5 +19,6 @@
   gl_nl / 公历农历选择
 ```
 
-<img src="https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif"  width="140">
+<img src="https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif"  width="240">
+<img src="https://github.com/dwyane169/CUI/blob/master/GIF/picker.gif"  width="240">
 
