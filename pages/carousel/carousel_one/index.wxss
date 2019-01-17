@@ -1,0 +1,48 @@
+.date {
+  width: 100%;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.tower-swiper {
+  margin-top: 100rpx;
+}
+
+.tower-swiper {
+  height: 420rpx;
+  position: relative;
+}
+
+.tower-swiper .tower-item {
+  position: absolute;
+  width: 300rpx;
+  height: 380rpx;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin: auto;
+  transition: all 0.3s ease-in 0s;
+  opacity: 1;
+}
+
+.tower-swiper .tower-item.none {
+  opacity: 0;
+}
+
+.tower-swiper .tower-item .bg-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6rpx;
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tower-swiper .tower-item .bg-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6rpx;
+}

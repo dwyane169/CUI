@@ -1,0 +1,20 @@
+<!-- 异形轮播 -->
+<view class='date'>
+  <Navi />
+
+
+  <view class="touch" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" >
+
+    <block wx:for="{{imgs}}" wx:key>
+      <view class="item shadow-blur {{item.id == 0 || item.id == imgs.length-1?'none':''}}"
+        style='margin-left:{{item.m_left*20}}px;margin-top:{{item.m_left*6}}px;z-index:{{-item.id + 99}};' >
+        <image class="item_img" src="{{item.url}}" mode='aspectFill'/>
+      </view>
+    </block>
+
+    
+  </view> 
+
+
+
+</view>

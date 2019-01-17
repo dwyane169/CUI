@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -54,7 +54,25 @@
 				{
 					"id": -1,
 					"name": "公历农历",
-					"pathName": "pages/gl_nl/index"
+					"pathName": "pages/gl_nl/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "轮播图分类",
+					"pathName": "pages/carousel/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "异形轮播",
+					"pathName": "pages/carousel/carousel_one/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "层叠轮播",
+					"pathName": "pages/carousel/carousel_two/index"
 				}
 			]
 		}

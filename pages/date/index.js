@@ -31,6 +31,8 @@ Page({
     if( item_day.status == -1 ) return
     //编号加入选择的数组里面
     choose_data.push(number)
+
+
     //如果选择的数组长度为2 切除第一个元素
     if( choose_data.length > 2){
       choose_data.shift();

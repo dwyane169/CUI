@@ -1,0 +1,15 @@
+<!-- 异形轮播 -->
+<view class='date'>
+  <Navi />
+
+
+  <view class="tower-swiper" bindtouchmove="towerMove" bindtouchstart="towerStart" bindtouchend="towerEnd">
+    <view class='tower-item {{item.zIndex==1?"none":""}}' 
+      wx:for="{{towerList}}" wx:key 
+      style='transform: scale({{0.5+item.zIndex/10}});margin-left:{{item.mLeft*100-150}}rpx;z-index:{{item.zIndex}}'>
+      <view class='bg-img shadow-blur'
+       style="background-image:url({{item.url}})">
+      </view>
+    </view>
+  </view>
+</view>

@@ -2,6 +2,6 @@
   <Navi />
 
   <view class='sub_page'>日历</view>
-  <Item title="日期选择(适用于酒店)" url="/pages/date/index"/>
+  <Item title="日期选择( 适用于酒店 )" url="/pages/date/index"/>
   <Item title="公历农历" url="/pages/gl_nl/index"/>
 </view>

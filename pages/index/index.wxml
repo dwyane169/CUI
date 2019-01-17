@@ -15,7 +15,7 @@
     <view slot="subtitle" class="subtitle">Carousel</view>
   </Title>
 
-  <Item title="轮播整合" url="/pages/calender/index" />
+  <Item title="轮播整合" url="/pages/carousel/index" />
   
 
 </view>

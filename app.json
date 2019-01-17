@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/calender/index",
     "pages/date/index",
-    "pages/gl_nl/index"
+    "pages/gl_nl/index",
+    "pages/carousel/index",
+    "pages/carousel/carousel_one/index",
+    "pages/carousel/carousel_two/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
