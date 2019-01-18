@@ -23,6 +23,12 @@
   </Title>
 
   <Item title="动画整合" url="/pages/animation/index" />
+  <Title>
+    <view slot="title" class="title">地点</view>
+    <view slot="subtitle" class="subtitle">Position</view>
+  </Title>
+
+  <Item title="地点整合" url="/pages/position/index" />
   
 
 </view>

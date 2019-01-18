@@ -1,0 +1,103 @@
+.indexToast{
+  position: fixed;
+  top: 0;
+  right: 40px;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.indexBar {
+  position: fixed;
+  right: 0rpx;
+  bottom: 40rpx;
+  padding: 20rpx 20rpx 20rpx 60rpx;
+  display: flex;
+  align-items: center;
+}
+
+.indexBar .indexBar-box {
+  width: 20px;
+  height: auto;
+  background: linear-gradient( 45deg, #ff9700, #ed1c24);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.indexBar-item {
+  flex: 1;
+  width: 20px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+movable-view.indexBar-item {
+  width: 20px;
+  height: 20px;
+  z-index: 9;
+}
+
+movable-view.indexBar-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 10px;
+  width: 2px;
+  background-color: #f37b1d;
+}
+
+.search_box{
+  position: fixed;
+  left: 20rpx;
+  top: 160rpx;
+  width: 710rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10rpx 40rpx;
+  background:  linear-gradient( 45deg, #ff9700, #ed1c24);
+  border-radius: 40rpx;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.scroll{
+  width: 640rpx;
+  margin-top: 120rpx;
+  background-color: #f5f5f5;
+  height: 1020rpx;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.sub_title{
+  box-sizing: border-box;
+  font-size: 34rpx;
+  padding:12rpx 40rpx;
+  width: 400rpx;
+  background:linear-gradient( 45deg, #ff9700, #ed1c24);
+  color: #fff;
+  border-radius: 40rpx;
+  margin-bottom: 20rpx;
+}
+.single{
+  padding:6rpx 40rpx;
+  background:#ccc;
+  border-radius: 30rpx;
+  color: #fff;
+  margin-bottom: 20rpx;
+}

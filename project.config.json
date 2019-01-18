@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -78,7 +78,13 @@
 				{
 					"id": -1,
 					"name": "Loading",
-					"pathName": "pages/animation/loading/index"
+					"pathName": "pages/animation/loading/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "城市地点选择",
+					"pathName": "pages/position/city/index"
 				}
 			]
 		}

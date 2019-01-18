@@ -19,7 +19,7 @@
   gl_nl / 公历农历选择
 ```
 
-<div style="float:left;border:solid 1px 000;margin:2px;" >
+<div style="float:left;margin:4px;" >
   <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif"  width="240" height="410">
   <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/picker.gif"  width="240" height="410">
   <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/c2.gif"  width="240"   height="410">

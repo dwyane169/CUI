@@ -8,7 +8,9 @@
     "pages/carousel/carousel_one/index",
     "pages/carousel/carousel_two/index",
     "pages/animation/index",
-    "pages/animation/loading/index"
+    "pages/animation/loading/index",
+    "pages/position/index",
+    "pages/position/city/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

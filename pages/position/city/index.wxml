@@ -1,0 +1,34 @@
+<!-- 城市选择  -->
+<view class='date'>
+  <Navi />
+
+  <view class='search_box'>
+    <input class="search_input"></input>
+    <view class="search_btn">搜索</view>
+  </view>
+
+  <scroll-view scroll-y class='scroll'>
+    <view class='sub_title'>历史搜索</view>
+    <view class='sub_title'>热门城市</view>
+    <block wx:for="{{city}}" wx:key>
+      <view class='sub_title' >
+        {{item.title}}
+      </view>
+      <view class='single' wx:for="{{item.item}}" wx:for-item="single" wx:key>
+        {{single.name}}
+      </view>
+    </block>
+    
+  </scroll-view>
+
+  <view class='indexBar' >
+    <view class='indexBar-box' bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
+      <view class="indexBar-item " wx:for="{{list}}" wx:key id='{{index}}' bindtouchstart="getCur" bindtouchend="setCur">{{list[index]}}</view>
+    </view>
+  </view>
+  <!--选择显示-->
+  <view hidden="{{hidden}}" class="indexToast">
+    {{listCur}}
+  </view>
+
+</view>

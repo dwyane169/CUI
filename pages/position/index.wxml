@@ -1,0 +1,6 @@
+<view class="container">
+  <Navi />
+
+  <view class='sub_page'>地点</view>
+  <Item title="城市选择" url="/pages/position/city/index"/>
+</view>
