@@ -20,10 +20,10 @@
 ```
 
 <div style="float:left;border:solid 1px 000;margin:2px;" >
-  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif"  width="240" >
-  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/picker.gif"  width="240">
-  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/c2.gif"  width="240"  >
-  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/loading.gif"  width="240" >
+  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif"  width="240" height="410">
+  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/picker.gif"  width="240" height="410">
+  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/c2.gif"  width="240"   height="410">
+  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/loading.gif"  width="240" height="410">
 </div>
 
 
