@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Navi": "/components/Navi/index",
+    "Item": "/components/Item/index",
+    "Loading" : "/components/Loading/index",
+    "Loading2" : "/components/Loading2/index"
+  }
+}

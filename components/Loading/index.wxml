@@ -1,0 +1,15 @@
+<view class='toast' wx:if="{{ishide}}">
+  <view class='content {{ position? "" : "content_shu"}}'>
+    <!--不变色  -->
+    <view class="spinner" wx:if="{{types == 1}}">
+      <view wx:for="{{5}}" class="rect{{index+1}}"></view>
+    </view>
+    <!--渐变色  -->
+    <view class="loading " wx:elif="{{types == 2}}">
+      <view wx:for="{{5}}"></view>
+    </view>
+    <view class='text {{types != 0 && position ? "text1" : "text2"}}'>
+      {{title}}
+    </view>
+  </view>
+</view>

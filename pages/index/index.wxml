@@ -16,6 +16,13 @@
   </Title>
 
   <Item title="轮播整合" url="/pages/carousel/index" />
+
+  <Title>
+    <view slot="title" class="title">动画</view>
+    <view slot="subtitle" class="subtitle">Animation</view>
+  </Title>
+
+  <Item title="动画整合" url="/pages/animation/index" />
   
 
 </view>

@@ -1,8 +1,4 @@
-.date{
-  width: 100%;
-  padding: 0 20rpx;
-  box-sizing: border-box;
-}
+
 .date_top{
   font-size: 66rpx;
   font-weight: bold;

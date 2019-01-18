@@ -6,7 +6,9 @@
     "pages/gl_nl/index",
     "pages/carousel/index",
     "pages/carousel/carousel_one/index",
-    "pages/carousel/carousel_two/index"
+    "pages/carousel/carousel_two/index",
+    "pages/animation/index",
+    "pages/animation/loading/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

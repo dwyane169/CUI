@@ -18,6 +18,23 @@
   border-radius: inherit;
   transform: scale(1, 1);
 }
+.date {
+  width: 100%;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.show_date{
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  color: #fff;
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+  width: 400rpx;
+  height: 120rpx;
+  background: linear-gradient(45deg,#39b54a,#8dc63f);
+  font-size: 28rpx;
+}
 .title{
   color: #fff;
   font-size: 36rpx;

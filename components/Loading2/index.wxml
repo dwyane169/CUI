@@ -1,0 +1,5 @@
+  <view class="cssload-loader-inner" wx:if="{{show}}">
+    <view class="cssload-cssload-loader-line-wrap-wrap" wx:for="{{5}}">
+      <view class="cssload-loader-line-wrap"></view>
+    </view>
+  </view>

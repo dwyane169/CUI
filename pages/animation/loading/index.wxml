@@ -1,0 +1,13 @@
+<view class="date">
+  <Navi />
+  <view class="show_date shadow-blur" bindtap='showLoading' data-id='1'>
+    <view>点击显示Loading 1</view>
+    <view class="bottom">types: ( String )是否渐变, position: ( Bool )是否垂直</view>
+  </view>  
+  <view class="show_date shadow-blur" bindtap='showLoading' data-id='2'>
+    <view>点击显示Loading 2</view>
+    <view class="bottom">duration: ( Number )显示时间</view>
+  </view>  
+  <Loading title="加载中" id="loading" types="1" position="{{true}}"/>
+  <Loading2 id="loading2"/>
+</view>

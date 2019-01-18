@@ -2,7 +2,6 @@
 <view class='date'>
   <Navi />
 
-
   <view class="tower-swiper" bindtouchmove="towerMove" bindtouchstart="towerStart" bindtouchend="towerEnd">
     <view class='tower-item {{item.zIndex==1?"none":""}}' 
       wx:for="{{towerList}}" wx:key 

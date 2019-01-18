@@ -22,4 +22,5 @@
 <img src="https://github.com/dwyane169/CUI/blob/master/GIF/calender.gif"   width="240">
 <img src="https://github.com/dwyane169/CUI/blob/master/GIF/picker.gif"   width="240">
 <img src="https://github.com/dwyane169/CUI/blob/master/GIF/c2.gif"   width="240">
+<img src="https://github.com/dwyane169/CUI/blob/master/GIF/loading.gif"   width="240">
 

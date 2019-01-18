@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.5.0",
 	"appid": "wxb64e74995c9ce39a",
-	"projectname": "123",
+	"projectname": "1234",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -72,7 +72,13 @@
 				{
 					"id": -1,
 					"name": "层叠轮播",
-					"pathName": "pages/carousel/carousel_two/index"
+					"pathName": "pages/carousel/carousel_two/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Loading",
+					"pathName": "pages/animation/loading/index"
 				}
 			]
 		}

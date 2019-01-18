@@ -1,0 +1,9 @@
+/* pages/animation/loading/index.wxss */
+.show_date{
+  background: linear-gradient(60deg,#ff9700,#ed1c24);
+  width: 660rpx;
+}
+.bottom{
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}
