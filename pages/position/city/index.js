@@ -1,5 +1,5 @@
 import { city} from './cities.js'
-console.table(city)
+
 Page({
   data: {
     hidden: true,
@@ -30,7 +30,6 @@ Page({
         list.splice(index, 1)
       }
     }
-    list = ['历','热'].concat(list)
     this.setData({ list, listCur: list[0] })
   },
 
@@ -75,4 +74,19 @@ Page({
       listCur: this.data.listCur
     })
   },
+
+  //搜索回车键
+  searchConfirm(e){
+    const { value } = e.detail;
+    console.log(value)
+    let key;
+    for(let i of city){
+      for(let j of i.item){
+        if( j.name.includes(value)){
+          key = j.key
+        }
+      }
+    }
+    this.setData({ listCur : key })
+  }
 })

@@ -24,6 +24,7 @@
   <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/picker.gif"  width="240" height="410">
   <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/c2.gif"  width="240"   height="410">
   <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/loading.gif"  width="240" height="410">
+  <img style="float:left;" src="https://github.com/dwyane169/CUI/blob/master/GIF/cities.gif"  width="240" height="410">
 </div>
 
 

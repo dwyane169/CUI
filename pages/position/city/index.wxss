@@ -1,30 +1,30 @@
 .indexToast{
   position: fixed;
-  top: 0;
-  right: 40px;
-  bottom: 0;
+  top: 50%;
+  right: 120rpx;
+  transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
-  width: 50px;
-  height: 50px;
+  width: 100rpx;
+  height: 100rpx;
   border-radius: 5px;
-  margin: auto;
   color: #fff;
-  line-height: 50px;
+  line-height: 100rpx;
   text-align: center;
-  font-size: 24px;
+  font-size: 28rpx;
 }
 
 .indexBar {
   position: fixed;
   right: 0rpx;
-  bottom: 40rpx;
+  top: 50%;
+  transform: translateY(-50%);
   padding: 20rpx 20rpx 20rpx 60rpx;
   display: flex;
   align-items: center;
 }
 
 .indexBar .indexBar-box {
-  width: 20px;
+  width: 40rpx;
   height: auto;
   background: linear-gradient( 45deg, #ff9700, #ed1c24);
   display: flex;
@@ -34,42 +34,26 @@
 }
 .indexBar-item {
   flex: 1;
-  width: 20px;
-  height: 18px;
+  width: 40rpx;
+  height: 46rpx;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24rpx;
+  font-size: 28rpx;
   color: #fff;
 }
 
-movable-view.indexBar-item {
-  width: 20px;
-  height: 20px;
-  z-index: 9;
-}
-
-movable-view.indexBar-item::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 5px;
-  height: 10px;
-  width: 2px;
-  background-color: #f37b1d;
-}
 
 .search_box{
   position: fixed;
   left: 20rpx;
   top: 160rpx;
-  width: 710rpx;
+  width: 640rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10rpx 40rpx;
-  background:  linear-gradient( 45deg, #ff9700, #ed1c24);
+  background:  linear-gradient( 45deg, #f43f3b, #ec008c);
   border-radius: 40rpx;
   justify-content: space-between;
   color: #fff;
@@ -78,8 +62,7 @@ movable-view.indexBar-item::before {
 .scroll{
   width: 640rpx;
   margin-top: 120rpx;
-  background-color: #f5f5f5;
-  height: 1020rpx;
+  height: 1100rpx;
   border-radius: 20rpx;
   padding: 20rpx;
   box-sizing: border-box;
@@ -96,7 +79,7 @@ movable-view.indexBar-item::before {
 }
 .single{
   padding:6rpx 40rpx;
-  background:#ccc;
+  background: linear-gradient( 45deg, #ec008c, #6739b6);
   border-radius: 30rpx;
   color: #fff;
   margin-bottom: 20rpx;

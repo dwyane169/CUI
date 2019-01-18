@@ -3,15 +3,13 @@
   <Navi />
 
   <view class='search_box'>
-    <input class="search_input"></input>
+    <input class="search_input" bindconfirm='searchConfirm'></input>
     <view class="search_btn">搜索</view>
   </view>
 
-  <scroll-view scroll-y class='scroll'>
-    <view class='sub_title'>历史搜索</view>
-    <view class='sub_title'>热门城市</view>
+  <scroll-view scroll-y class='scroll' scroll-into-view="{{listCur}}" >
     <block wx:for="{{city}}" wx:key>
-      <view class='sub_title' >
+      <view class='sub_title' id="{{item.title}}">
         {{item.title}}
       </view>
       <view class='single' wx:for="{{item.item}}" wx:for-item="single" wx:key>
