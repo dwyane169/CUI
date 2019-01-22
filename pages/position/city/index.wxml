@@ -2,11 +2,13 @@
 <view class='date'>
   <Navi />
 
+  <!-- 搜索框 -->
   <view class='search_box'>
     <input class="search_input" bindconfirm='searchConfirm'></input>
     <view class="search_btn">搜索</view>
   </view>
 
+  <!-- 城市列表 -->
   <scroll-view scroll-y class='scroll' scroll-into-view="{{listCur}}" >
     <block wx:for="{{city}}" wx:key>
       <view class='sub_title' id="{{item.title}}">
@@ -18,6 +20,8 @@
     </block>
   </scroll-view>
 
+
+  <!-- 右侧字母表 -->
   <view class='indexBar' >
     <view class='indexBar-box' bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
       <view class="indexBar-item " wx:for="{{list}}" wx:key id='{{index}}' bindtouchstart="getCur" bindtouchend="setCur">{{list[index]}}</view>
