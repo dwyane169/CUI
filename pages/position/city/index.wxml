@@ -16,7 +16,6 @@
         {{single.name}}
       </view>
     </block>
-    
   </scroll-view>
 
   <view class='indexBar' >
