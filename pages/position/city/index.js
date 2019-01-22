@@ -5,13 +5,16 @@ Page({
   data: {
     hidden: true, //控制选择时的提示字母显示
     city,         //城市JSON
+    single_height : 0, //单个字母高度
   },
   // 获取右侧索引盒子 距离window 顶部的高度
   getBoxTop() {
     wx.createSelectorQuery()
     .select('.indexBar-box')
     .boundingClientRect(res=>{
-      this.setData({ boxTop: res.top })
+      
+      const single_height = res.height / this.data.list.length;
+      this.setData({ boxTop: res.top, single_height })
     }).exec();
   },
 
@@ -35,10 +38,11 @@ Page({
   //滑动选择时进行字母判断与选择 超出盒子范围默认Z 或 A
   tMove(e) {
     let y = e.touches[0].clientY;
-    const { boxTop, list } = this.data;
+    console.log(y)
+    const { boxTop, list, char_height, single_height } = this.data;
     //判断选择区域,只有在选择区才会生效
     if (y > boxTop) {
-      let num = parseInt((y - boxTop) / 20);
+      let num = parseInt((y - boxTop) / single_height);
       const listCur = list[num] ? list[num] : list[list.length - 1];
       this.setData({ listCur })
     };

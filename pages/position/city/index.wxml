@@ -24,7 +24,9 @@
   <!-- 右侧字母表 -->
   <view class='indexBar' >
     <view class='indexBar-box' bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
-      <view class="indexBar-item " wx:for="{{list}}" wx:key id='{{index}}' bindtouchstart="getCur" bindtouchend="setCur">{{list[index]}}</view>
+      <view class="indexBar-item " wx:for="{{list}}" wx:key id='{{index}}' 
+      bindtouchstart="getCur" bindtouchend="setCur"
+      >{{list[index]}}</view>
     </view>
   </view>
   <!--选择显示-->

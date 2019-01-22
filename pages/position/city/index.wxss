@@ -15,9 +15,9 @@
 
 .indexBar {
   position: fixed;
-  right: 0rpx;
+  right:0rpx;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-46%);
   padding: 20rpx 20rpx 20rpx 60rpx;
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
 .indexBar-item {
   flex: 1;
   width: 40rpx;
-  height: 46rpx;
+  height: 40rpx;
   display: flex;
   align-items: center;
   justify-content: center;
