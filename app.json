@@ -13,7 +13,8 @@
     "pages/position/city/index",
     "pages/animation/wave/index",
     "pages/carousel/carousel_card/index",
-    "pages/readme/index"
+    "pages/readme/index",
+    "pages/animation/blinds/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

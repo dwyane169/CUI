@@ -1,0 +1,27 @@
+<view class="box">
+  <!-- 导航 -->
+  <view style="margin-left:20rpx;">
+      <Navi />
+  </view>
+
+
+  <view class='top'>
+    this is top box
+  </view>
+
+  <!-- 控制整体位置 -->
+  <view class='float {{showFloat?"float_top":""}}'>
+    <block wx:for="{{list}}" wx:key>
+      <!-- 点击盒子 -->
+      <view class='item open' bindtap='showInside' data-index='{{index}}'>
+        {{item.title}}
+      </view>
+      <!-- 要显示的内容 -->
+      <view class='inside' wx:if="{{item.if_show}}"> 
+          inside box {{item.child}}
+      </view>
+    </block>  
+  </view>
+
+
+</view>

@@ -13,7 +13,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.5.0",
-	"appid": "wxb64e74995c9ce39a",
+	"appid": "wx1d0f9fcbbf8f88e0",
 	"projectname": "1234",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 11,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -110,7 +110,13 @@
 					"id": -1,
 					"name": "readme",
 					"pathName": "pages/readme/index",
+					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "blinds",
+					"pathName": "pages/animation/blinds/index"
 				}
 			]
 		}

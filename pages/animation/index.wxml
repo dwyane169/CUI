@@ -4,4 +4,5 @@
   <view class='sub_page'>动画</view>
   <Item title="Loading动画" url="/pages/animation/loading/index"/>
   <Item title="波浪" url="/pages/animation/wave/index"/>
+  <Item title="百叶窗式布局" url="/pages/animation/blinds/index"/>
 </view>

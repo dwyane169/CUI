@@ -1,10 +1,7 @@
 <!-- 卡片轮播 -->
 <view class='date'>
   <Navi />
-
-  
   <view class='swiper' bindtouchmove="towerMove" bindtouchstart="towerStart" bindtouchend="towerEnd">
-
   <block wx:for="{{imglist}}" wx:key>
     <view class='item'
       style='z-index:{{100-item.id}};margin-left:{{item.mleft}}rpx;transform:scale({{item.scale}});opacity:{{item.opacity}}'>
