@@ -4,4 +4,5 @@
   <view class='sub_page'>轮播</view>
   <Item title="异形轮播" url="/pages/carousel/carousel_one/index"/>
   <Item title="层叠轮播" url="/pages/carousel/carousel_two/index"/>
+  <Item title="卡片轮播 ( 仿京东商城 )" url="/pages/carousel/carousel_card/index"/>
 </view>

@@ -62,7 +62,7 @@
 .scroll{
   width: 640rpx;
   margin-top: 120rpx;
-  height: 1100rpx;
+  height: 1000rpx;
   border-radius: 20rpx;
   padding: 20rpx;
   box-sizing: border-box;

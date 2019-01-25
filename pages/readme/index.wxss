@@ -1,0 +1,6 @@
+.scroll{
+  margin: auto;
+  width: 700rpx;
+  /* background:rgba(255, 255, 255, .4); */
+  margin-top: 40rpx;
+}

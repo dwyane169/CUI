@@ -1,0 +1,8 @@
+
+.title{
+  font-size: 56rpx;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}

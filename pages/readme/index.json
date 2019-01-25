@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ReadMeTitle": "/components/ReadMeTitle/index",
+    "ReadMeText": "/components/ReadMeText/index",
+    "Navi": "/components/Navi/index"
+  }
+}

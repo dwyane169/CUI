@@ -1,0 +1,13 @@
+<view class='container'>
+
+  <Navi />
+
+  <scroll-view class='scroll' style='height:{{windowHeight * 0.8}}px' scroll-y >
+    <block wx:for="{{all}}" wx:key>
+      <ReadMeTitle title="{{item.title}}" wx:if="{{item.title}}"/>
+      <ReadMeText desc="{{item.desc}}"/>
+    </block>
+
+  </scroll-view>
+
+</view>

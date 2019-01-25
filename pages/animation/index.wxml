@@ -3,5 +3,5 @@
 
   <view class='sub_page'>动画</view>
   <Item title="Loading动画" url="/pages/animation/loading/index"/>
-  <!-- <Item title="其他动画" url="/pages/animation/loading/index"/> -->
+  <Item title="波浪" url="/pages/animation/wave/index"/>
 </view>

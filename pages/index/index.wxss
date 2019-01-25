@@ -1,0 +1,21 @@
+.copy{
+  position: fixed;
+  bottom: 60rpx;
+  right: 20rpx;
+  color: #fff;
+  
+  padding: 20rpx;
+  border: 1px solid #fff;
+}
+.color{
+  color: #f4f;
+  opacity: .6;
+}
+.readme{
+  position: fixed;
+  bottom: 160rpx;
+  right: 20rpx;
+  color: #fff;
+  padding: 20rpx;
+  border: 1px solid #fff;
+}

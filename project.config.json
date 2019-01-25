@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 11,
 			"list": [
 				{
 					"id": -1,
@@ -84,7 +84,33 @@
 				{
 					"id": -1,
 					"name": "城市地点选择",
-					"pathName": "pages/position/city/index"
+					"pathName": "pages/position/city/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "动画整合",
+					"pathName": "pages/animation/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "波浪",
+					"pathName": "pages/animation/wave/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "卡片轮播",
+					"pathName": "pages/carousel/carousel_card/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "readme",
+					"pathName": "pages/readme/index",
+					"scene": null
 				}
 			]
 		}

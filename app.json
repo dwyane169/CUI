@@ -10,7 +10,10 @@
     "pages/animation/index",
     "pages/animation/loading/index",
     "pages/position/index",
-    "pages/position/city/index"
+    "pages/position/city/index",
+    "pages/animation/wave/index",
+    "pages/carousel/carousel_card/index",
+    "pages/readme/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

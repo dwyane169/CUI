@@ -30,5 +30,6 @@
 
   <Item title="地点整合" url="/pages/position/index" />
   
-
+  <view class='readme' bindtap='readMe'>ReadMe</view>
+  <view class='copy' bindtap='copyGit'>点我复制 <text class='color'>GitHub</text> 地址</view>
 </view>

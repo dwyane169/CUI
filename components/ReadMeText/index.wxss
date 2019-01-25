@@ -1,0 +1,11 @@
+.text{
+  background-color: #f5f5f5;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  font-size: 34rpx;
+  color: #666;
+  text-indent: 40rpx;
+  line-height:56rpx;
+  margin-bottom: 20rpx;
+  text-align: justify;
+}
